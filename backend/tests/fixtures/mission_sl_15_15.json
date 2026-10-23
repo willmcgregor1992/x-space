@@ -1,0 +1,182 @@
+{
+  "id": 4836,
+  "documentId": "wekxojqrnqok1d66wzvmhl57",
+  "correlationId": "E84909D7FBA7798E68CBB865E5A577137B5D979E7527EB80EBF4AAE1707496EB",
+  "missionId": "sl-15-15",
+  "title": "Starlink Mission",
+  "callToAction": "WATCH",
+  "endDate": null,
+  "followDragonEnabled": false,
+  "vehicleTrackerEnabled": false,
+  "returnFromIssEnabled": false,
+  "toTheIssEnabled": false,
+  "toTheIssTense": null,
+  "preLaunchTimeline": {
+    "id": 209,
+    "name": "Falcon 9 Payload",
+    "title": "Countdown",
+    "disclaimer": null,
+    "timeHeader": "Hr/Min/Sec",
+    "descriptionHeader": "Event",
+    "createdAt": "2022-12-14T22:11:12.963Z",
+    "updatedAt": "2022-12-14T22:12:28.245Z",
+    "publishedAt": "2022-12-14T22:11:42.480Z",
+    "documentId": "ig8ykoo4qgrofai23dtyb06m",
+    "locale": null,
+    "timelineEntries": [
+      {
+        "id": 14873,
+        "time": "00:38:00",
+        "description": "SpaceX Launch Director verifies go for propellant load"
+      },
+      {
+        "id": 14874,
+        "time": "00:35:00",
+        "description": "RP-1 (rocket grade kerosene) loading begins"
+      },
+      {
+        "id": 14875,
+        "time": "00:35:00",
+        "description": "1st stage LOX (liquid oxygen) loading begins"
+      },
+      {
+        "id": 14876,
+        "time": "00:16:00",
+        "description": "2nd stage LOX loading begins"
+      },
+      {
+        "id": 14877,
+        "time": "00:07:00",
+        "description": "Falcon 9 begins engine chill prior to launch"
+      },
+      {
+        "id": 14878,
+        "time": "00:01:00",
+        "description": "Command flight computer to begin final prelaunch checks"
+      },
+      {
+        "id": 14879,
+        "time": "00:01:00",
+        "description": "Propellant tank pressurization to flight pressure begins"
+      },
+      {
+        "id": 14880,
+        "time": "00:00:45",
+        "description": "SpaceX Launch Director verifies go for launch"
+      },
+      {
+        "id": 14881,
+        "time": "00:00:03",
+        "description": "Engine controller commands engine ignition sequence to start"
+      },
+      {
+        "id": 14882,
+        "time": "00:00:00",
+        "description": "Falcon 9 liftoff"
+      }
+    ]
+  },
+  "postLaunchTimeline": {
+    "id": 2714,
+    "title": "Launch, Landing, and Deployment",
+    "disclaimer": "All Times Approximate",
+    "timeHeader": "Hr/Min/Sec",
+    "descriptionHeader": "Event",
+    "timelineEntries": [
+      {
+        "id": 43801,
+        "time": "00:01:08",
+        "description": "Max Q (moment of peak mechanical stress on the rocket)"
+      },
+      {
+        "id": 43802,
+        "time": "00:02:26",
+        "description": "1st stage main engine cutoff (MECO)"
+      },
+      {
+        "id": 43803,
+        "time": "00:02:29",
+        "description": "1st and 2nd stages separate"
+      },
+      {
+        "id": 43804,
+        "time": "00:02:36",
+        "description": "2nd stage engine starts (SES-1)"
+      },
+      {
+        "id": 43805,
+        "time": "00:02:58",
+        "description": "Fairing separation"
+      },
+      {
+        "id": 43806,
+        "time": "00:06:01",
+        "description": "1st stage entry burn begins"
+      },
+      {
+        "id": 43807,
+        "time": "00:06:24",
+        "description": "1st stage entry burn ends"
+      },
+      {
+        "id": 43808,
+        "time": "00:08:01",
+        "description": "1st stage landing burn begins"
+      },
+      {
+        "id": 43809,
+        "time": "00:08:23",
+        "description": "1st stage landing"
+      },
+      {
+        "id": 43810,
+        "time": "00:08:39",
+        "description": "2nd stage engine cutoff (SECO-1)"
+      },
+      {
+        "id": 43811,
+        "time": "00:53:13",
+        "description": "2nd stage engine starts (SES-2)"
+      },
+      {
+        "id": 43812,
+        "time": "00:53:14",
+        "description": "2nd stage engine cutoff (SECO-2)"
+      },
+      {
+        "id": 43813,
+        "time": "01:02:04 ",
+        "description": "Starlink satellites deploy"
+      }
+    ]
+  },
+  "astronauts": [],
+  "webcasts": [
+    {
+      "id": 2911,
+      "videoId": "1YGNrbnzdqLGw",
+      "streamingVideoType": "x-live-studio",
+      "title": null,
+      "date": null,
+      "isFeatured": null
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": 14066,
+      "content": "SpaceX\u2019s Falcon 9 is targeting the launch of 27 <a href=\"https://www.starlink.com/\" target=\"_\">Starlink</a> satellites to low-Earth orbit from Space Launch Complex 4 East (SLC-4E) at Vandenberg Space Force Base in California."
+    },
+    {
+      "id": 14067,
+      "content": "A live webcast of this mission will begin about 10 minutes prior to liftoff, which you can watch here and on <a href=\"https://twitter.com/SpaceX\" target=\"_\">X @SpaceX</a>. "
+    },
+    {
+      "id": 14068,
+      "content": "This will be the 36th flight for the first stage booster supporting this mission, which previously launched Sentinel-6 Michael Freilich, DART, Transporter-7, Iridium OneWeb, SDA-0B, NROL-113, NROL-167, NROL-149, NAOS, and 26 Starlink missions. Following stage separation, the first stage will land on the Of Course I Still Love You droneship, which will be stationed in the Pacific Ocean."
+    },
+    {
+      "id": 14069,
+      "content": "There is the possibility that residents of Santa Barbara, San Luis Obispo, and Ventura counties may hear <a href=\"https://www.spacex.com/updates/#starship-sonic-boom\" target=\"_\">one or more sonic booms</a> during the launch, but what residents experience will depend on weather and other conditions."
+    }
+  ]
+}

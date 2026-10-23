@@ -1,0 +1,184 @@
+{
+  "id": 4765,
+  "documentId": "huzf91bvd3djff5vh9t6ezaq",
+  "correlationId": "62A0EAE98B9FC0BD0AD941AE07AE5E2AF545A64C8DDC43407BDFE6AE82ADDB4C",
+  "missionId": "nrol97",
+  "title": "NROL-97 Mission",
+  "callToAction": "WATCH",
+  "endDate": null,
+  "followDragonEnabled": false,
+  "vehicleTrackerEnabled": false,
+  "returnFromIssEnabled": false,
+  "toTheIssEnabled": false,
+  "toTheIssTense": null,
+  "preLaunchTimeline": {
+    "id": 216,
+    "name": "Falcon Heavy",
+    "title": "Countdown",
+    "disclaimer": null,
+    "timeHeader": "Hr/Min/Sec",
+    "descriptionHeader": "Event",
+    "createdAt": "2023-01-10T22:29:39.146Z",
+    "updatedAt": "2023-04-12T17:24:14.864Z",
+    "publishedAt": "2023-01-11T20:49:41.613Z",
+    "documentId": "i4gh0wu191da5k58ctvq0ucr",
+    "locale": null,
+    "timelineEntries": [
+      {
+        "id": 14951,
+        "time": "- 00:53:00",
+        "description": "SpaceX Launch Director verifies go for propellant load"
+      },
+      {
+        "id": 14952,
+        "time": "- 00:50:00",
+        "description": "1st stage RP-1 (rocket grade kerosene) loading begins"
+      },
+      {
+        "id": 14953,
+        "time": "- 00:45:00",
+        "description": "1st stage LOX (liquid oxygen) loading begins"
+      },
+      {
+        "id": 14954,
+        "time": "- 00:35:00",
+        "description": "2nd stage RP-1 (rocket grade kerosene) loading begins"
+      },
+      {
+        "id": 14955,
+        "time": "- 00:18:30",
+        "description": "2nd stage LOX loading begins"
+      },
+      {
+        "id": 14956,
+        "time": "- 00:07:00",
+        "description": "Falcon Heavy begins engine chill"
+      },
+      {
+        "id": 14957,
+        "time": "- 00:00:59",
+        "description": "Flight computer commanded to begin final pre-launch checks"
+      },
+      {
+        "id": 14958,
+        "time": "- 00:00:45",
+        "description": "SpaceX Launch Director verifies go for launch"
+      },
+      {
+        "id": 14959,
+        "time": "- 00:00:20",
+        "description": "Propellant tanks pressurize for flight"
+      },
+      {
+        "id": 14960,
+        "time": "- 00:00:06",
+        "description": "Engine controller commands engine ignition sequence to start"
+      },
+      {
+        "id": 14961,
+        "time": "- 00:00:00",
+        "description": "Falcon Heavy liftoff"
+      }
+    ]
+  },
+  "postLaunchTimeline": {
+    "id": 2643,
+    "title": "Launch, Landing, and Deployment",
+    "disclaimer": "All Times Approximate",
+    "timeHeader": "Hr/Min/Sec",
+    "descriptionHeader": "Event",
+    "timelineEntries": [
+      {
+        "id": 42258,
+        "time": "00:01:09",
+        "description": "Max Q (moment of peak mechanical stress on the rocket)"
+      },
+      {
+        "id": 42259,
+        "time": "00:02:24",
+        "description": "Side booster engine cutoff (BECO) "
+      },
+      {
+        "id": 42260,
+        "time": "00:02:27",
+        "description": "Side boosters separate"
+      },
+      {
+        "id": 42261,
+        "time": "00:02:31\t",
+        "description": "Side boosters flip"
+      },
+      {
+        "id": 42262,
+        "time": "00:02:42",
+        "description": "Side boosters boostback burn begins"
+      },
+      {
+        "id": 42263,
+        "time": "00:03:47",
+        "description": "Side boosters boostback burn ends"
+      },
+      {
+        "id": 42264,
+        "time": "00:03:51",
+        "description": "1st stage main engine cutoff (MECO)"
+      },
+      {
+        "id": 42265,
+        "time": "00:03:54",
+        "description": "1st and 2nd stages separate"
+      },
+      {
+        "id": 42266,
+        "time": "00:04:00",
+        "description": "2nd stage engine starts (SES-1)"
+      },
+      {
+        "id": 42267,
+        "time": "00:04:17",
+        "description": "Fairing separation"
+      },
+      {
+        "id": 42268,
+        "time": "00:06:29",
+        "description": "Side boosters entry burn begins"
+      },
+      {
+        "id": 42269,
+        "time": "00:06:37",
+        "description": "Side boosters entry burn ends"
+      },
+      {
+        "id": 42270,
+        "time": "00:07:30",
+        "description": "Side boosters landing burns begin"
+      },
+      {
+        "id": 42271,
+        "time": "00:07:47",
+        "description": "Side boosters land at LZ-1 and LZ-2"
+      }
+    ]
+  },
+  "astronauts": [],
+  "webcasts": [
+    {
+      "id": 2809,
+      "videoId": "1oJMvNkPPXlxQ",
+      "streamingVideoType": "x-live-studio",
+      "title": null,
+      "date": null,
+      "isFeatured": null
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": 13775,
+      "content": "On Thursday, October 1 at 11:54 p.m. ET Falcon Heavy launched the <a href=\"https://sxcontent9668.azureedge.us/cms-assets/assets/NROL_97_141eb4af0c.png\" target=\"_\">NROL-97</a> mission from Launch Complex 39A (LC-39A) at NASA\u2019s Kennedy Space Center in Florida."
+    },
+    {
+      "id": 13776,
+      "content": "This was the second and fourth flight for the two first stage side boosters supporting this mission, which previously launched the <a href=\"https://www.spacex.com/launches/goes-u\" target=\"_\">GOES-U</a>, <a href=\"https://www.spacex.com/launches/viasat3f3\" target=\"_\">Viasat-3 F3</a>, and <a href=\"https://www.spacex.com/launches/roman\" target=\"_\">Roman Space Telescope</a> missions. Following stage separation, Falcon Heavy\u2019s two side boosters landed on SpaceX\u2019s Landing Zones 1 and 2 (LZ-1 and LZ-2) at Cape Canaveral Space Force Station in Florida."
+    }
+  ]
+}

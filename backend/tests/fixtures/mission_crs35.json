@@ -1,0 +1,188 @@
+{
+  "id": 4811,
+  "documentId": "mhsesny2vrcaryhczldpx0gw",
+  "correlationId": "C6D537E112156BE1AFBB8A5A85221FF4D95E2461F83F03425549FF42DEE7A278",
+  "missionId": "crs35",
+  "title": "CRS-35 Mission",
+  "callToAction": "WATCH",
+  "endDate": null,
+  "followDragonEnabled": false,
+  "vehicleTrackerEnabled": false,
+  "returnFromIssEnabled": false,
+  "toTheIssEnabled": true,
+  "toTheIssTense": "present",
+  "preLaunchTimeline": {
+    "id": 214,
+    "name": "Dragon - Cargo",
+    "title": "Countdown",
+    "disclaimer": null,
+    "timeHeader": "Hr/Min/Sec",
+    "descriptionHeader": "Event",
+    "createdAt": "2022-12-14T22:17:30.932Z",
+    "updatedAt": "2023-05-19T19:48:03.135Z",
+    "publishedAt": "2022-12-14T22:17:33.342Z",
+    "documentId": "qyzqu9qoz2uaduqc2f9zy34x",
+    "locale": null,
+    "timelineEntries": [
+      {
+        "id": 14933,
+        "time": "00:38:00",
+        "description": "SpaceX Launch Director verifies go for propellant load"
+      },
+      {
+        "id": 14934,
+        "time": "00:35:00",
+        "description": "RP-1 (rocket grade kerosene) loading begins"
+      },
+      {
+        "id": 14935,
+        "time": "00:35:00",
+        "description": "1st stage LOX (liquid oxygen) loading begins"
+      },
+      {
+        "id": 14936,
+        "time": "00:16:00",
+        "description": "2nd stage LOX loading begins"
+      },
+      {
+        "id": 14937,
+        "time": "00:07:00",
+        "description": "Falcon 9 begins pre-launch engine chill"
+      },
+      {
+        "id": 14938,
+        "time": "00:05:00",
+        "description": "Dragon transitions to internal power"
+      },
+      {
+        "id": 14939,
+        "time": "00:01:00",
+        "description": "Command flight computer to begin final prelaunch checks"
+      },
+      {
+        "id": 14940,
+        "time": "00:01:00",
+        "description": "Propellant tanks pressurize for flight"
+      },
+      {
+        "id": 14941,
+        "time": "00:00:45",
+        "description": "SpaceX Launch Director verifies go for launch"
+      },
+      {
+        "id": 14942,
+        "time": "00:00:03",
+        "description": "Engine controller commands engine ignition sequence to start"
+      },
+      {
+        "id": 14943,
+        "time": "00:00:00",
+        "description": "Falcon 9 liftoff"
+      }
+    ]
+  },
+  "postLaunchTimeline": {
+    "id": 2689,
+    "title": "Launch, Landing, and Deployment",
+    "disclaimer": "All Times Approximate",
+    "timeHeader": "Hr/Min/Sec",
+    "descriptionHeader": "Event",
+    "timelineEntries": [
+      {
+        "id": 43141,
+        "time": "00:01:08",
+        "description": "Max Q (moment of peak mechanical stress on the rocket)"
+      },
+      {
+        "id": 43142,
+        "time": "00:02:15",
+        "description": "1st stage main engine cutoff (MECO)"
+      },
+      {
+        "id": 43143,
+        "time": "00:02:18",
+        "description": "1st and 2nd stages separate"
+      },
+      {
+        "id": 43144,
+        "time": "00:02:22",
+        "description": "Stage 1 flip\t"
+      },
+      {
+        "id": 43145,
+        "time": "00:02:26",
+        "description": "2nd stage engine starts (SES-1)"
+      },
+      {
+        "id": 43146,
+        "time": "00:02:31",
+        "description": "Boostback burn starts"
+      },
+      {
+        "id": 43147,
+        "time": "00:03:25",
+        "description": "Boostback burn ends"
+      },
+      {
+        "id": 43148,
+        "time": "00:05:58",
+        "description": "1st stage entry burn begins"
+      },
+      {
+        "id": 43149,
+        "time": "00:06:06  ",
+        "description": "1st stage entry burn ends"
+      },
+      {
+        "id": 43150,
+        "time": "00:07:04 ",
+        "description": "1st stage landing burn begins"
+      },
+      {
+        "id": 43151,
+        "time": "00:07:21 ",
+        "description": "1st stage landing"
+      },
+      {
+        "id": 43152,
+        "time": "00:08:30 ",
+        "description": "2nd stage engine cutoff (SECO-1)"
+      },
+      {
+        "id": 43153,
+        "time": "00:09:18  ",
+        "description": "Dragon separates from 2nd stage"
+      },
+      {
+        "id": 43154,
+        "time": "00:10:33",
+        "description": "Dragon nosecone open sequence begins"
+      }
+    ]
+  },
+  "astronauts": [],
+  "webcasts": [
+    {
+      "id": 2886,
+      "videoId": "1aJbdEzoAvYKX",
+      "streamingVideoType": "x-live-studio",
+      "title": null,
+      "date": null,
+      "isFeatured": null
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": 13973,
+      "content": "On Tuesday, October 13 at 6:33 a.m. ET, Falcon 9 launched Dragon\u2019s 35th Commercial Resupply Services (CRS-35) mission to the International Space Station from Space Launch Complex 40 (SLC-40) at Cape Canaveral Space Force Station in Florida. After an approximate 52-hour flight, Dragon autonomously docked with the orbiting laboratory on Thursday, October 15 at 10:27 a.m. ET."
+    },
+    {
+      "id": 13974,
+      "content": "CRS-35 is the fourth flight for the Dragon spacecraft supporting this mission, which previously flew CRS-26, CRS-29, and CRS-33 to and from the space station."
+    },
+    {
+      "id": 13975,
+      "content": "This was the eighth flight of the first stage booster supporting this mission, which previously launched KF-01, IMAP, NROL-77, GPS III-9, CRS-34, NROL-95, and one Starlink mission. Following stage separation, the first stage landed on Landing Zone 40 at Cape Canaveral Space Force Station in Florida."
+    }
+  ]
+}

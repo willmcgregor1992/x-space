@@ -1,0 +1,287 @@
+{
+  "id": 4759,
+  "documentId": "v22bo07mjaz6qz9qe2p9rm4e",
+  "correlationId": "98964DA49D0A98402ED3D2D37B3350CF0AA346F522F8F1FEB6B01CD680BC9455",
+  "missionId": "crew13",
+  "title": "Crew-13 Mission",
+  "callToAction": "WATCH",
+  "endDate": null,
+  "followDragonEnabled": false,
+  "vehicleTrackerEnabled": true,
+  "returnFromIssEnabled": false,
+  "toTheIssEnabled": true,
+  "toTheIssTense": "present",
+  "preLaunchTimeline": {
+    "id": 213,
+    "name": "Dragon - Crew",
+    "title": "Countdown",
+    "disclaimer": null,
+    "timeHeader": "Hr/Min/Sec",
+    "descriptionHeader": "Event",
+    "createdAt": "2022-12-14T22:20:09.553Z",
+    "updatedAt": "2023-05-19T19:47:46.344Z",
+    "publishedAt": "2022-12-14T22:20:17.486Z",
+    "documentId": "zcxbll1dyl9vr828c8i6u902",
+    "locale": null,
+    "timelineEntries": [
+      {
+        "id": 14920,
+        "time": "00:45:00",
+        "description": "SpaceX Launch Director verifies go for propellant load"
+      },
+      {
+        "id": 14921,
+        "time": "00:42:00",
+        "description": "Crew access arm retracts"
+      },
+      {
+        "id": 14922,
+        "time": "00:39:00",
+        "description": "Dragon's launch escape system is armed"
+      },
+      {
+        "id": 14923,
+        "time": "00:35:00",
+        "description": "RP-1 (rocket grade kerosene) loading begins"
+      },
+      {
+        "id": 14924,
+        "time": "00:35:00",
+        "description": "1st stage LOX (liquid oxygen) loading begins"
+      },
+      {
+        "id": 14925,
+        "time": "00:16:00",
+        "description": "2nd stage LOX loading begins"
+      },
+      {
+        "id": 14926,
+        "time": "00:07:00",
+        "description": "Falcon 9 begins engine chill prior to launch"
+      },
+      {
+        "id": 14927,
+        "time": "00:05:00",
+        "description": "Dragon transitions to internal power"
+      },
+      {
+        "id": 14928,
+        "time": "00:01:00",
+        "description": "Command flight computer to begin final prelaunch checks"
+      },
+      {
+        "id": 14929,
+        "time": "00:01:00",
+        "description": "Propellant tank pressurization to flight pressure begins"
+      },
+      {
+        "id": 14930,
+        "time": "00:00:45",
+        "description": "SpaceX Launch Director verifies go for launch"
+      },
+      {
+        "id": 14931,
+        "time": "00:00:03",
+        "description": "Engine controller commands engine ignition sequence to start"
+      },
+      {
+        "id": 14932,
+        "time": "00:00:00",
+        "description": "Falcon 9 liftoff"
+      }
+    ]
+  },
+  "postLaunchTimeline": {
+    "id": 2637,
+    "title": "Launch, Landing, and Deployment",
+    "disclaimer": "All Times Approximate",
+    "timeHeader": "Hr/Min/Sec",
+    "descriptionHeader": "Event",
+    "timelineEntries": [
+      {
+        "id": 42173,
+        "time": "00:01:12",
+        "description": "Max Q (moment of peak mechanical stress on the rocket)"
+      },
+      {
+        "id": 42174,
+        "time": "00:02:24\t",
+        "description": "1st stage main engine cutoff (MECO)"
+      },
+      {
+        "id": 42175,
+        "time": "00:02:27\t",
+        "description": "1st and 2nd stages separate"
+      },
+      {
+        "id": 42176,
+        "time": "00:02:35\t",
+        "description": "2nd stage engine starts (SES-1)"
+      },
+      {
+        "id": 42177,
+        "time": "00:02:31\t",
+        "description": "Stage 1 flip"
+      },
+      {
+        "id": 42178,
+        "time": "00:02:41\t",
+        "description": "Boostback burn starts"
+      },
+      {
+        "id": 42179,
+        "time": "00:03:27",
+        "description": "Boostback burn ends"
+      },
+      {
+        "id": 42180,
+        "time": "00:06:20",
+        "description": "1st stage entry burn begins"
+      },
+      {
+        "id": 42181,
+        "time": "00:06:32\t",
+        "description": "1st stage entry burn ends"
+      },
+      {
+        "id": 42182,
+        "time": "00:07:24\t",
+        "description": "1st stage landing burn begins"
+      },
+      {
+        "id": 42183,
+        "time": "00:07:41\t",
+        "description": "1st stage landing"
+      },
+      {
+        "id": 42184,
+        "time": "00:08:47",
+        "description": "2nd stage engine cutoff (SECO-1)"
+      },
+      {
+        "id": 42185,
+        "time": "00:09:39\t",
+        "description": "Dragon separates from 2nd stage"
+      },
+      {
+        "id": 42186,
+        "time": "00:10:25\t",
+        "description": "Dragon nosecone open sequence begins"
+      }
+    ]
+  },
+  "astronauts": [
+    {
+      "id": 1319,
+      "name": "Jessica Watkins",
+      "bioLink": "https://www.nasa.gov/people/jessica-watkins/",
+      "description": null,
+      "portrait": {
+        "id": 7525,
+        "name": "20260729_Crew13_Jessica_Watkins_Portraits_Ref_DSC01164.png",
+        "width": 4000,
+        "height": 5000,
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 8003.84,
+        "createdAt": "2026-09-21T17:40:01.806Z",
+        "updatedAt": "2026-09-21T17:40:01.806Z",
+        "documentId": "ynu7k0qa808heyvvs84hm2uo",
+        "locale": null,
+        "publishedAt": "2026-09-21T17:40:01.806Z"
+      }
+    },
+    {
+      "id": 1320,
+      "name": "Luke Delaney",
+      "bioLink": "https://www.nasa.gov/people/nasa-astronaut-luke-delaney/",
+      "description": null,
+      "portrait": {
+        "id": 7522,
+        "name": "20260729_Crew13_Luke_Delaney_Portrait_DSC01872.png",
+        "width": 4000,
+        "height": 5000,
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 8503.12,
+        "createdAt": "2026-09-21T17:39:26.437Z",
+        "updatedAt": "2026-09-21T17:39:26.437Z",
+        "documentId": "a50yp7qw4nigf841p9h3krz7",
+        "locale": null,
+        "publishedAt": "2026-09-21T17:39:26.438Z"
+      }
+    },
+    {
+      "id": 1321,
+      "name": "Joshua Kutryk",
+      "bioLink": " https://www.asc-csa.gc.ca/eng/astronauts/canadian/active/bio-joshua-kutryk.asp",
+      "description": null,
+      "portrait": {
+        "id": 7523,
+        "name": "20260729_Crew13_Joshua_Kutryk_Portrait_DSC01588.png",
+        "width": 4000,
+        "height": 5000,
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 7076.85,
+        "createdAt": "2026-09-21T17:39:45.637Z",
+        "updatedAt": "2026-09-21T17:39:45.637Z",
+        "documentId": "yychy72nyqqa3hfgksngf73i",
+        "locale": null,
+        "publishedAt": "2026-09-21T17:39:45.639Z"
+      }
+    },
+    {
+      "id": 1322,
+      "name": "Sergey Teteryantnikov",
+      "bioLink": null,
+      "description": null,
+      "portrait": {
+        "id": 7524,
+        "name": "20260729_Crew13_Sergey_Teteryatnikov_Portrait_DSC01342.png",
+        "width": 4000,
+        "height": 5000,
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 7472.52,
+        "createdAt": "2026-09-21T17:39:45.641Z",
+        "updatedAt": "2026-09-21T17:39:45.641Z",
+        "documentId": "goyzsvcb41pzwoj8z8jzmu9v",
+        "locale": null,
+        "publishedAt": "2026-09-21T17:39:45.642Z"
+      }
+    }
+  ],
+  "webcasts": [
+    {
+      "id": 2803,
+      "videoId": "1qxvvepEVdRxB",
+      "streamingVideoType": "x-live-studio",
+      "title": "Crew-13 | Launch",
+      "date": null,
+      "isFeatured": null
+    },
+    {
+      "id": 2804,
+      "videoId": "1qxvveVOnoRxB",
+      "streamingVideoType": "x-live-studio",
+      "title": "Crew-13 | Docking",
+      "date": null,
+      "isFeatured": true
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": 13763,
+      "content": "On Thursday, October 1 at 11:10 a.m. ET, Falcon 9 <a href=\"https://x.com/i/broadcasts/1qxvvepEVdRxB\" target=\"_\">launched</a> Dragon\u2019s 13th operational human spaceflight mission (<a href=\"https://sxcontent9668.azureedge.us/cms-assets/assets/Crew13_OL_d500ddc40f.png\" target=\"_\">Crew-13</a>) to the International Space Station from Space Launch Complex 40 (SLC-40) at Cape Canaveral Space Force Station. Dragon autonomously docked with the space station on Thursday, October 1 at 7:05 p.m. ET. "
+    },
+    {
+      "id": 13764,
+      "content": "The Dragon spacecraft supporting this mission previously flew the <a href=\" https://www.spacex.com/launches/ax4\" target=\"_\">Ax-4</a>,\nmission to and from the space station. This was the third flight for the first stage supporting this mission, which previously launched Crew-12 and one Starlink mission. Following stage separation, Falcon 9\u2019s first stage landed on Landing Zone 40 (LZ-40) at Cape Canaveral Space Force Station."
+    },
+    {
+      "id": 13765,
+      "content": "During their time on the orbiting laboratory, the crew will conduct new research to prepare for human exploration beyond low-Earth orbit and to benefit humanity on Earth. "
+    }
+  ]
+}

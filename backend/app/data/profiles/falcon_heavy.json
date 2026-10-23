@@ -1,0 +1,24 @@
+{
+  "id": "falcon_heavy",
+  "name": "Falcon Heavy",
+  "vehicles": ["Falcon Heavy"],
+  "mission_types": ["nssl", "commercialSatellite", "science"],
+  "visualizer": "ascent",
+  "active_duration_seconds": 2400,
+  "complete_after_seconds": 3600,
+  "webcast_lead_seconds": 600,
+  "milestones": [
+    {"key": "liftoff", "name": "Liftoff", "t_plus_seconds": 0, "phase": "Liftoff", "is_estimated": true, "source": "mission_profile", "visual_role": "launch", "description": "27 Merlin engines at full throttle."},
+    {"key": "max_q", "name": "Max Q", "t_plus_seconds": 69, "phase": "Ascent", "is_estimated": true, "source": "mission_profile", "visual_role": "ascent", "description": "Peak aerodynamic pressure."},
+    {"key": "beco", "name": "BECO", "t_plus_seconds": 144, "phase": "Booster cutoff", "is_estimated": true, "source": "mission_profile", "visual_role": "ascent", "description": "Side booster engine cutoff."},
+    {"key": "booster_sep", "name": "Booster sep", "t_plus_seconds": 147, "phase": "Booster separation", "is_estimated": true, "source": "mission_profile", "visual_role": "ascent", "description": "Side boosters separate."},
+    {"key": "meco", "name": "MECO", "t_plus_seconds": 231, "phase": "Core MECO", "is_estimated": true, "source": "mission_profile", "visual_role": "ascent", "description": "Center core main engine cutoff."},
+    {"key": "stage_sep", "name": "Stage sep", "t_plus_seconds": 234, "phase": "Stage separation", "is_estimated": true, "source": "mission_profile", "visual_role": "ascent", "description": "Core and second stage separate."},
+    {"key": "ses1", "name": "SES-1", "t_plus_seconds": 240, "phase": "Second stage ascent", "is_estimated": true, "source": "mission_profile", "visual_role": "ascent", "description": "Second-stage ignition."},
+    {"key": "fairing", "name": "Fairing sep", "t_plus_seconds": 257, "phase": "Second stage ascent", "is_estimated": true, "source": "mission_profile", "visual_role": "ascent", "description": "Payload fairing jettison."},
+    {"key": "boosters_land", "name": "Boosters land", "t_plus_seconds": 467, "phase": "Booster landing", "is_estimated": true, "source": "mission_profile", "visual_role": "return", "description": "Side boosters land."},
+    {"key": "seco1", "name": "SECO-1", "t_plus_seconds": 540, "phase": "Orbital insertion", "is_estimated": true, "source": "mission_profile", "visual_role": "orbit", "description": "Second-stage cutoff."},
+    {"key": "deploy", "name": "Deployment", "t_plus_seconds": 1800, "phase": "Payload deployment", "is_estimated": true, "source": "mission_profile", "visual_role": "orbit", "description": "Payload deploy. Timing estimated."},
+    {"key": "complete", "name": "Mission complete", "t_plus_seconds": 2100, "phase": "Complete", "is_estimated": true, "source": "mission_profile", "visual_role": "orbit", "description": "Nominal Falcon Heavy mission complete."}
+  ]
+}

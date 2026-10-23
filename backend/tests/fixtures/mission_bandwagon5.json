@@ -1,0 +1,329 @@
+{
+  "id": 4832,
+  "documentId": "b6ih8vo39a7ou2dcjgfkp1qv",
+  "correlationId": "7D7179C146D0D6AF4EBD304AB799A718FE949A8DCD660CD6D12FB97915F9AB0A",
+  "missionId": "bandwagon5",
+  "title": "Bandwagon-5 Mission",
+  "callToAction": "WATCH",
+  "endDate": null,
+  "followDragonEnabled": false,
+  "vehicleTrackerEnabled": false,
+  "returnFromIssEnabled": false,
+  "toTheIssEnabled": false,
+  "toTheIssTense": null,
+  "preLaunchTimeline": {
+    "id": 209,
+    "name": "Falcon 9 Payload",
+    "title": "Countdown",
+    "disclaimer": null,
+    "timeHeader": "Hr/Min/Sec",
+    "descriptionHeader": "Event",
+    "createdAt": "2022-12-14T22:11:12.963Z",
+    "updatedAt": "2022-12-14T22:12:28.245Z",
+    "publishedAt": "2022-12-14T22:11:42.480Z",
+    "documentId": "ig8ykoo4qgrofai23dtyb06m",
+    "locale": null,
+    "timelineEntries": [
+      {
+        "id": 14873,
+        "time": "00:38:00",
+        "description": "SpaceX Launch Director verifies go for propellant load"
+      },
+      {
+        "id": 14874,
+        "time": "00:35:00",
+        "description": "RP-1 (rocket grade kerosene) loading begins"
+      },
+      {
+        "id": 14875,
+        "time": "00:35:00",
+        "description": "1st stage LOX (liquid oxygen) loading begins"
+      },
+      {
+        "id": 14876,
+        "time": "00:16:00",
+        "description": "2nd stage LOX loading begins"
+      },
+      {
+        "id": 14877,
+        "time": "00:07:00",
+        "description": "Falcon 9 begins engine chill prior to launch"
+      },
+      {
+        "id": 14878,
+        "time": "00:01:00",
+        "description": "Command flight computer to begin final prelaunch checks"
+      },
+      {
+        "id": 14879,
+        "time": "00:01:00",
+        "description": "Propellant tank pressurization to flight pressure begins"
+      },
+      {
+        "id": 14880,
+        "time": "00:00:45",
+        "description": "SpaceX Launch Director verifies go for launch"
+      },
+      {
+        "id": 14881,
+        "time": "00:00:03",
+        "description": "Engine controller commands engine ignition sequence to start"
+      },
+      {
+        "id": 14882,
+        "time": "00:00:00",
+        "description": "Falcon 9 liftoff"
+      }
+    ]
+  },
+  "postLaunchTimeline": {
+    "id": 2710,
+    "title": "Launch, Landing, and Deployment",
+    "disclaimer": "All Times Approximate",
+    "timeHeader": "Hr/Min/Sec",
+    "descriptionHeader": "Event",
+    "timelineEntries": [
+      {
+        "id": 43646,
+        "time": "00:01:09",
+        "description": "Max Q (moment of peak mechanical stress on the rocket)"
+      },
+      {
+        "id": 43647,
+        "time": "00:02:26",
+        "description": "1st stage main engine cutoff (MECO)"
+      },
+      {
+        "id": 43648,
+        "time": "00:02:29",
+        "description": "1st and 2nd stages separate"
+      },
+      {
+        "id": 43649,
+        "time": "00:02:37",
+        "description": "2nd stage engine starts (SES-1)"
+      },
+      {
+        "id": 43650,
+        "time": "00:03:00",
+        "description": "Fairing separation"
+      },
+      {
+        "id": 43651,
+        "time": "00:06:36",
+        "description": "1st stage entry burn start"
+      },
+      {
+        "id": 43652,
+        "time": "00:07:03",
+        "description": "1st stage entry burn ends"
+      },
+      {
+        "id": 43653,
+        "time": "00:08:17",
+        "description": "2nd stage engine cutoff (SECO-1)"
+      },
+      {
+        "id": 43654,
+        "time": "00:08:33",
+        "description": "1st stage landing burn starts"
+      },
+      {
+        "id": 43655,
+        "time": "00:08:58",
+        "description": "1st stage landing"
+      },
+      {
+        "id": 43656,
+        "time": "00:53:48",
+        "description": "2nd stage engine starts (SES-2)"
+      },
+      {
+        "id": 43657,
+        "time": "00:53:52",
+        "description": "2nd stage engine cutoff (SECO-2)"
+      },
+      {
+        "id": 43658,
+        "time": "00:57:18",
+        "description": "T.MicroSat-3 via Tron Future Tech deploys, manifested by Exolaunch"
+      },
+      {
+        "id": 43659,
+        "time": "00:57:35",
+        "description": "T.MicroSat-4 via Tron Future Tech deploys, manifested by Exolaunch"
+      },
+      {
+        "id": 43660,
+        "time": "00:57:58",
+        "description": "FOSSASAT-2E27 deploys, manifested by Exolaunch"
+      },
+      {
+        "id": 43661,
+        "time": "00:58:01",
+        "description": "Tomorrow-S15 deploys, manifested by Tomorrow.io"
+      },
+      {
+        "id": 43662,
+        "time": "00:58:15",
+        "description": "Tomorrow-S14 deploys, manifested by Tomorrow.io"
+      },
+      {
+        "id": 43663,
+        "time": "00:58:22",
+        "description": "LEO Express 4 deploys, manifested by Exolaunch"
+      },
+      {
+        "id": 43664,
+        "time": "00:58:32",
+        "description": "Hawk-15C deploys, manifested by Exolaunch"
+      },
+      {
+        "id": 43665,
+        "time": "00:59:08",
+        "description": "SIRIUS-B deploys, manifested by Exolaunch"
+      },
+      {
+        "id": 43666,
+        "time": "00:59:39",
+        "description": "SIRIUS-A deploys, manifested by Exolaunch"
+      },
+      {
+        "id": 43667,
+        "time": "00:59:54",
+        "description": "Hawk-16A deploys, manifested by Exolaunch"
+      },
+      {
+        "id": 43668,
+        "time": "01:00:19",
+        "description": "Hawk-16B deploys, manifested by Exolaunch"
+      },
+      {
+        "id": 43669,
+        "time": "01:00:56",
+        "description": "ICEYE-4 deploys, manifested by Exolaunch"
+      },
+      {
+        "id": 43670,
+        "time": "01:01:09",
+        "description": "ICEYE-2 deploys, manifested by Exolaunch"
+      },
+      {
+        "id": 43671,
+        "time": "01:01:24",
+        "description": "Pulsar-02 deploys, manifested by Exolaunch"
+      },
+      {
+        "id": 43672,
+        "time": "01:01:39",
+        "description": "Pulsar-04 deploys, manifested by Exolaunch"
+      },
+      {
+        "id": 43673,
+        "time": "01:01:48",
+        "description": "ICEYE-1 deploys, manifested by Exolaunch"
+      },
+      {
+        "id": 43674,
+        "time": "01:01:53",
+        "description": "Pulsar-03 deploys, manifested by Exolaunch"
+      },
+      {
+        "id": 43675,
+        "time": "01:01:58",
+        "description": "ICEYE-3 deploys, manifested by Exolaunch"
+      },
+      {
+        "id": 43676,
+        "time": "01:02:29",
+        "description": "PTS-1 via Xona Space Systems deploys, manifested by Exolaunch"
+      },
+      {
+        "id": 43677,
+        "time": "01:02:31  ",
+        "description": "Acadia-11 deploys, manifested by Capella Space Corp"
+      },
+      {
+        "id": 43678,
+        "time": "01:02:43",
+        "description": "Pulsar-01 deploys, manifested by Exolaunch"
+      },
+      {
+        "id": 43679,
+        "time": "01:02:48",
+        "description": "FRG-100D4 deploys, manifested by Fergani"
+      },
+      {
+        "id": 43680,
+        "time": "01:03:00",
+        "description": "Starburst-1 deploys, manifested by Portal Space Systems"
+      },
+      {
+        "id": 43681,
+        "time": "01:03:30",
+        "description": "PTS-2 via Xona Space Systems deploys, manifested by Exolaunch"
+      },
+      {
+        "id": 43682,
+        "time": "01:03:33",
+        "description": "Pelican-12 deploys, manifested by Planet Labs "
+      },
+      {
+        "id": 43683,
+        "time": "01:03:35",
+        "description": "Acadia-12 deploys, manifested by Capella Space Corp"
+      },
+      {
+        "id": 43684,
+        "time": "01:04:14",
+        "description": "GNOMES-11 deploys, manifested by PlanetiQ"
+      },
+      {
+        "id": 43685,
+        "time": "01:05:37",
+        "description": "MAXWELL deploys, manifested by Viasat"
+      },
+      {
+        "id": 43686,
+        "time": "01:05:58",
+        "description": "W-Series 7 deploys, manifested by Varda Space Industries"
+      },
+      {
+        "id": 43687,
+        "time": "01:07:10",
+        "description": "Umbra-14 deploys, manifested by Umbra Lab, Inc"
+      },
+      {
+        "id": 43688,
+        "time": "01:09:30",
+        "description": "Umbra-13 deploys, manifested by Umbra Lab, Inc"
+      },
+      {
+        "id": 43689,
+        "time": "02:48:28",
+        "description": "Starfall deploys"
+      }
+    ]
+  },
+  "astronauts": [],
+  "webcasts": [
+    {
+      "id": 2907,
+      "videoId": "1nxeLMddZlEJX",
+      "streamingVideoType": "x-live-studio",
+      "title": null,
+      "date": null,
+      "isFeatured": null
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": 14052,
+      "content": "On Tuesday, October 20 at 7:04 a.m. ET, Falcon 9 launched the <a href= https://sxcontent9668.azureedge.us/cms-assets/assets/Bandwagon_Y2_1_7ac9d38ded.png target=\"_\">Bandwagon-5</a> mission to orbit from Space Launch Complex 40 (SLC-40) at Cape Canaveral Space Force Station in Florida. On board this mission were 32 payloads including cubesats, microsats, and reentry vehicles"
+    },
+    {
+      "id": 14053,
+      "content": "This was the 19th flight of the first stage booster supporting this mission, which previously launched Crew-9, RRT-1, Firefly Blue Ghost Mission 1, Fram2, SXM-10, MTG-S1, EchoStar XXV, SXM-11, and now 10 Starlink missions. Following stage separation, the first stage landed on the A Shortfall of Gravitas droneship, which was stationed in the Atlantic Ocean."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "starship",
+  "name": "Starship flight test",
+  "vehicles": ["Starship"],
+  "mission_types": ["starship"],
+  "visualizer": "starship",
+  "active_duration_seconds": 4800,
+  "complete_after_seconds": 5400,
+  "webcast_lead_seconds": 1200,
+  "milestones": [
+    {"key": "liftoff", "name": "Liftoff", "t_plus_seconds": 2, "phase": "Liftoff", "is_estimated": true, "source": "mission_profile", "visual_role": "launch", "description": "Super Heavy and Starship leave the pad."},
+    {"key": "max_q", "name": "Max Q", "t_plus_seconds": 62, "phase": "Ascent", "is_estimated": true, "source": "mission_profile", "visual_role": "ascent", "description": "Peak aerodynamic stress."},
+    {"key": "meco", "name": "MECO", "t_plus_seconds": 157, "phase": "Hot-staging", "is_estimated": true, "source": "mission_profile", "visual_role": "ascent", "description": "Most Super Heavy engines cut off."},
+    {"key": "hot_stage", "name": "Hot-staging", "t_plus_seconds": 159, "phase": "Stage separation", "is_estimated": true, "source": "mission_profile", "visual_role": "ascent", "description": "Starship ignition and stage separation."},
+    {"key": "boostback", "name": "Boostback", "t_plus_seconds": 169, "phase": "Booster return", "is_estimated": true, "source": "mission_profile", "visual_role": "return", "description": "Super Heavy boostback burn."},
+    {"key": "landing_burn", "name": "Booster landing", "t_plus_seconds": 380, "phase": "Booster landing", "is_estimated": true, "source": "mission_profile", "visual_role": "return", "description": "Super Heavy landing burn."},
+    {"key": "seco1", "name": "SECO", "t_plus_seconds": 538, "phase": "Coast", "is_estimated": true, "source": "mission_profile", "visual_role": "orbit", "description": "Starship engine cutoff."},
+    {"key": "deploy", "name": "Payload demo", "t_plus_seconds": 1108, "phase": "Payload demo", "is_estimated": true, "source": "mission_profile", "visual_role": "orbit", "description": "Payload deploy demonstration."},
+    {"key": "entry", "name": "Entry", "t_plus_seconds": 2863, "phase": "Entry", "is_estimated": true, "source": "mission_profile", "visual_role": "return", "description": "Starship atmospheric entry."},
+    {"key": "landing", "name": "Landing", "t_plus_seconds": 3985, "phase": "Landing", "is_estimated": true, "source": "mission_profile", "visual_role": "return", "description": "Terminal landing burn / splashdown."},
+    {"key": "complete", "name": "Flight complete", "t_plus_seconds": 4000, "phase": "Complete", "is_estimated": true, "source": "mission_profile", "visual_role": "return", "description": "Flight test complete."}
+  ]
+}

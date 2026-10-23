@@ -1,0 +1,24 @@
+{
+  "id": "dragon_iss",
+  "name": "Dragon / ISS mission",
+  "vehicles": ["Falcon 9"],
+  "mission_types": ["hsf", "resupply"],
+  "visualizer": "iss",
+  "active_duration_seconds": 200000,
+  "complete_after_seconds": 20000000,
+  "webcast_lead_seconds": 900,
+  "milestones": [
+    {"key": "liftoff", "name": "Liftoff", "t_plus_seconds": 0, "phase": "Liftoff", "is_estimated": true, "source": "mission_profile", "visual_role": "launch", "description": "Falcon 9 liftoff with Dragon."},
+    {"key": "max_q", "name": "Max Q", "t_plus_seconds": 70, "phase": "Ascent", "is_estimated": true, "source": "mission_profile", "visual_role": "ascent", "description": "Peak aerodynamic pressure."},
+    {"key": "meco", "name": "MECO", "t_plus_seconds": 140, "phase": "MECO", "is_estimated": true, "source": "mission_profile", "visual_role": "ascent", "description": "First-stage cutoff."},
+    {"key": "stage_sep", "name": "Stage sep", "t_plus_seconds": 144, "phase": "Stage separation", "is_estimated": true, "source": "mission_profile", "visual_role": "ascent", "description": "Stage separation."},
+    {"key": "ses1", "name": "SES-1", "t_plus_seconds": 152, "phase": "Second stage ascent", "is_estimated": true, "source": "mission_profile", "visual_role": "ascent", "description": "Second-stage ignition."},
+    {"key": "landing", "name": "Landing", "t_plus_seconds": 460, "phase": "Booster landing", "is_estimated": true, "source": "mission_profile", "visual_role": "return", "description": "First-stage landing."},
+    {"key": "seco1", "name": "SECO-1", "t_plus_seconds": 520, "phase": "Orbital insertion", "is_estimated": true, "source": "mission_profile", "visual_role": "orbit", "description": "Orbital insertion."},
+    {"key": "dragon_sep", "name": "Dragon sep", "t_plus_seconds": 570, "phase": "Dragon separation", "is_estimated": true, "source": "mission_profile", "visual_role": "orbit", "description": "Dragon separates from the second stage."},
+    {"key": "phasing", "name": "Phasing", "t_plus_seconds": 7200, "phase": "Phasing", "is_estimated": true, "source": "mission_profile", "visual_role": "iss", "description": "Orbit raising and phasing toward the ISS. Estimated."},
+    {"key": "rendezvous", "name": "Rendezvous", "t_plus_seconds": 160000, "phase": "Rendezvous", "is_estimated": true, "source": "mission_profile", "visual_role": "iss", "description": "Relative navigation with the ISS. Estimated."},
+    {"key": "approach", "name": "Approach", "t_plus_seconds": 180000, "phase": "Approach", "is_estimated": true, "source": "mission_profile", "visual_role": "iss", "description": "Final approach. Estimated."},
+    {"key": "docking", "name": "Docking", "t_plus_seconds": 187200, "phase": "Docked", "is_estimated": true, "source": "mission_profile", "visual_role": "iss", "description": "Nominal docking after ~52 hours. Estimated unless SpaceX reports docked."}
+  ]
+}

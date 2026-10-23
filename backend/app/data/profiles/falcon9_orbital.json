@@ -1,0 +1,24 @@
+{
+  "id": "falcon9_orbital",
+  "name": "Falcon 9 orbital mission",
+  "vehicles": ["Falcon 9"],
+  "mission_types": ["starlink", "commercialSatellite", "rideshare", "science", "nssl"],
+  "visualizer": "ascent",
+  "active_duration_seconds": 5400,
+  "complete_after_seconds": 7800,
+  "webcast_lead_seconds": 600,
+  "milestones": [
+    {"key": "liftoff", "name": "Liftoff", "t_plus_seconds": 0, "phase": "Liftoff", "is_estimated": true, "source": "mission_profile", "visual_role": "launch", "description": "Vehicle clears the pad."},
+    {"key": "max_q", "name": "Max Q", "t_plus_seconds": 72, "phase": "Ascent", "is_estimated": true, "source": "mission_profile", "visual_role": "ascent", "description": "Peak aerodynamic pressure."},
+    {"key": "meco", "name": "MECO", "t_plus_seconds": 146, "phase": "MECO", "is_estimated": true, "source": "mission_profile", "visual_role": "ascent", "description": "First-stage main engine cutoff."},
+    {"key": "stage_sep", "name": "Stage sep", "t_plus_seconds": 149, "phase": "Stage separation", "is_estimated": true, "source": "mission_profile", "visual_role": "ascent", "description": "First and second stages separate."},
+    {"key": "ses1", "name": "SES-1", "t_plus_seconds": 156, "phase": "Second stage ascent", "is_estimated": true, "source": "mission_profile", "visual_role": "ascent", "description": "Second-stage ignition."},
+    {"key": "fairing", "name": "Fairing sep", "t_plus_seconds": 180, "phase": "Second stage ascent", "is_estimated": true, "source": "mission_profile", "visual_role": "ascent", "description": "Payload fairing jettison."},
+    {"key": "entry_burn", "name": "Entry burn", "t_plus_seconds": 370, "phase": "Booster return", "is_estimated": true, "source": "mission_profile", "visual_role": "return", "description": "First-stage entry burn."},
+    {"key": "landing", "name": "Landing", "t_plus_seconds": 500, "phase": "Booster landing", "is_estimated": true, "source": "mission_profile", "visual_role": "return", "description": "First-stage landing."},
+    {"key": "seco1", "name": "SECO-1", "t_plus_seconds": 520, "phase": "Orbital insertion", "is_estimated": true, "source": "mission_profile", "visual_role": "orbit", "description": "Second-stage cutoff. Estimated orbital insertion."},
+    {"key": "coast", "name": "Coast", "t_plus_seconds": 900, "phase": "Coast", "is_estimated": true, "source": "mission_profile", "visual_role": "orbit", "description": "Coast to deployment orbit."},
+    {"key": "deploy", "name": "Deployment", "t_plus_seconds": 3720, "phase": "Payload deployment", "is_estimated": true, "source": "mission_profile", "visual_role": "orbit", "description": "Payload deploy sequence."},
+    {"key": "complete", "name": "Mission complete", "t_plus_seconds": 4200, "phase": "Complete", "is_estimated": true, "source": "mission_profile", "visual_role": "orbit", "description": "Nominal orbital mission complete."}
+  ]
+}

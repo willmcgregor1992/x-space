@@ -1,0 +1,235 @@
+{
+  "id": 3512,
+  "documentId": "l1rk62ahfcs442u0xi5x51i6",
+  "correlationId": "86CB35A822329FE1DE40EB82A1791BE1F66F8BD327446686BDD859A89E436853",
+  "missionId": "starship-flight-11",
+  "title": "Starship's Eleventh Flight Test",
+  "callToAction": "WATCH",
+  "endDate": null,
+  "followDragonEnabled": false,
+  "vehicleTrackerEnabled": null,
+  "returnFromIssEnabled": false,
+  "toTheIssEnabled": false,
+  "toTheIssTense": null,
+  "preLaunchTimeline": {
+    "id": 224,
+    "name": "Starship's Eleventh Flight Test",
+    "title": "Countdown",
+    "disclaimer": "All Times Approximate",
+    "timeHeader": "Hr/Min/Sec",
+    "descriptionHeader": "Event",
+    "createdAt": "2025-09-29T20:12:02.081Z",
+    "updatedAt": "2025-10-06T17:36:31.595Z",
+    "publishedAt": "2025-10-06T17:36:31.640Z",
+    "documentId": "gsf7bnlzkok8fu2pxzhttgpa",
+    "locale": null,
+    "timelineEntries": [
+      {
+        "id": 19952,
+        "time": "01:15:00",
+        "description": "SpaceX Flight Director conducts poll and verifies GO for propellant load"
+      },
+      {
+        "id": 19953,
+        "time": "00:53:00",
+        "description": "Ship fuel (liquid methane) load underway"
+      },
+      {
+        "id": 19954,
+        "time": "00:46:10",
+        "description": "Ship LOX (liquid oxygen) load underway"
+      },
+      {
+        "id": 19955,
+        "time": "00:41:15",
+        "description": "Booster fuel load underway"
+      },
+      {
+        "id": 19956,
+        "time": "00:35:52",
+        "description": "Booster LOX load underway"
+      },
+      {
+        "id": 19957,
+        "time": "00:19:40",
+        "description": "Raptor begins engine chill on booster and ship"
+      },
+      {
+        "id": 19958,
+        "time": "00:03:20",
+        "description": "Ship propellant load complete"
+      },
+      {
+        "id": 19959,
+        "time": "00:02:50",
+        "description": "Booster propellant load complete"
+      },
+      {
+        "id": 19960,
+        "time": "00:00:30",
+        "description": "SpaceX flight director verifies GO for launch"
+      },
+      {
+        "id": 19961,
+        "time": "00:00:10",
+        "description": "Flame deflector activation"
+      },
+      {
+        "id": 19962,
+        "time": "00:00:03",
+        "description": "Raptor ignition sequence begins"
+      },
+      {
+        "id": 19963,
+        "time": "00:00:00",
+        "description": "Excitement guaranteed"
+      }
+    ]
+  },
+  "postLaunchTimeline": {
+    "id": 1467,
+    "title": "FLIGHT TEST TIMELINE",
+    "disclaimer": "All Times Approximate",
+    "timeHeader": "Hr/Min/Sec",
+    "descriptionHeader": "Event",
+    "timelineEntries": [
+      {
+        "id": 20435,
+        "time": "00:00:02",
+        "description": "Liftoff"
+      },
+      {
+        "id": 20436,
+        "time": "00:01:02",
+        "description": "Max Q (moment of peak aerodynamic stress on the rocket)"
+      },
+      {
+        "id": 20437,
+        "time": "00:02:37",
+        "description": "Super Heavy MECO (most engines cut off)"
+      },
+      {
+        "id": 20438,
+        "time": "00:02:39",
+        "description": "Hot-staging (Starship Raptor ignition and stage separation)"
+      },
+      {
+        "id": 20439,
+        "time": "00:02:49",
+        "description": "Super Heavy boostback burn start"
+      },
+      {
+        "id": 20440,
+        "time": "00:03:38",
+        "description": "Super Heavy boostback burn shutdown"
+      },
+      {
+        "id": 20441,
+        "time": "00:03:40",
+        "description": "Hot-stage jettison"
+      },
+      {
+        "id": 20442,
+        "time": "00:06:20",
+        "description": "Super Heavy landing burn start"
+      },
+      {
+        "id": 20443,
+        "time": "00:06:36",
+        "description": "Super Heavy landing burn shutdown "
+      },
+      {
+        "id": 20444,
+        "time": "00:08:58",
+        "description": "Starship engine cutoff"
+      },
+      {
+        "id": 20445,
+        "time": "00:18:28",
+        "description": "Payload deploy demo start"
+      },
+      {
+        "id": 20446,
+        "time": "00:25:33",
+        "description": "Payload deploy demo complete"
+      },
+      {
+        "id": 20447,
+        "time": "00:37:49",
+        "description": "Raptor in-space relight demo"
+      },
+      {
+        "id": 20448,
+        "time": "00:47:43",
+        "description": "Starship entry"
+      },
+      {
+        "id": 20449,
+        "time": "01:03:30",
+        "description": "Starship is transonic"
+      },
+      {
+        "id": 20450,
+        "time": "01:03:52",
+        "description": "Starship is subsonic"
+      },
+      {
+        "id": 20451,
+        "time": "01:05:58",
+        "description": "Landing burn start"
+      },
+      {
+        "id": 20452,
+        "time": "01:06:00",
+        "description": "Landing flip"
+      },
+      {
+        "id": 20453,
+        "time": "01:06:09",
+        "description": "Landing burn 3 to 2 engines"
+      },
+      {
+        "id": 20454,
+        "time": "01:06:25",
+        "description": "An exciting landing!"
+      }
+    ]
+  },
+  "astronauts": [],
+  "webcasts": [
+    {
+      "id": 1378,
+      "videoId": "1972796063359647955",
+      "streamingVideoType": "x.com",
+      "title": null,
+      "date": null,
+      "isFeatured": null
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": 9057,
+      "content": "On Monday, October 13, 2025, at 6:23 p.m. CT, Starship lifted off from Starbase, Texas on its eleventh flight test. This was the final flight of the second-generation Starship and first generation Super Heavy booster, as well as the final launch from the current configuration of Pad 1. Every major objective of the flight test was achieved, providing valuable data as we prepare the next generation of Starship and Super Heavy. "
+    },
+    {
+      "id": 9058,
+      "content": "The flight test began with Super Heavy igniting all 33 Raptor engines and ascending over the Gulf. The successful first-stage ascent was followed by a hot-staging maneuver, with Starship\u2019s upper stage igniting its six Raptor engines to continue its flight to space. "
+    },
+    {
+      "id": 9059,
+      "content": "Following stage separation, the Super Heavy booster completed its boostback burn to put it on a course to a pre-planned splashdown zone off the coast of Texas using 12 of the 13 planned engines. Under the same angle of attack tested on the previous flight, the booster descended until successfully igniting all 13 planned engines (including one that did not relight during the boostback burn) for the high-thrust portion of the landing burn. The booster successfully executed a unique landing burn planned for use on the next generation booster. Super Heavy hovered above the water before shutting down its engines and splashing down. "
+    },
+    {
+      "id": 9060,
+      "content": "After completing a full-duration ascent burn, Starship achieved its planned velocity and trajectory. During flight, Starship successfully deployed eight Starlink simulators and executed the third in-space relight of a Raptor engine, demonstrating a critical capability for future deorbit burns."
+    },
+    {
+      "id": 9061,
+      "content": "Starship re-entered the Earth\u2019s atmosphere and was able to gather extensive data on the performance of its heatshield as it was intentionally stressed to test the limits of the vehicle\u2019s capabilities. In the final minutes of flight, Starship performed a dynamic banking maneuver to mimic the trajectory that future missions returning to Starbase will fly. Starship then guided itself using its four flaps to the pre-planned splashdown zone in the Indian Ocean, successfully executing a landing flip, landing burn, and soft splashdown. "
+    },
+    {
+      "id": 9062,
+      "content": "Focus now turns to the next generation of Starship and Super Heavy, with multiple vehicles currently in active build and preparing for tests. This next iteration will be used for the first Starship orbital flights, operational payload missions, propellant transfer, and more as we iterate to a fully and rapidly reusable vehicle with service to Earth orbit, the Moon, Mars, and beyond.  "
+    }
+  ]
+}
