@@ -1,4 +1,4 @@
-# Single-service image for Railway / Render / Fly.
+# Single-service image for Render / Railway / Fly.
 # Builds the Vite UI, then serves it from FastAPI on the same origin as /api.
 FROM node:22-alpine AS frontend
 WORKDIR /frontend

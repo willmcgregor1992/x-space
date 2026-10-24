@@ -131,7 +131,7 @@ uvicorn app.main:app --host 0.0.0.0 --port 8000
 
 Or `docker compose up --build` with `APP_ENV=production`.
 
-Single-service image (what Railway / Render / Fly should build):
+Single-service image (what Render / Railway / Fly should build):
 
 ```bash
 docker compose --profile single up --build
@@ -139,18 +139,31 @@ docker compose --profile single up --build
 
 UI and API share http://localhost:8000.
 
-## Deploy online
+## Deploy on Render
 
-Hosts that look for a root `Dockerfile` (Railway, Render, Fly) should use the repo-root image. It builds the Vite UI and serves it from FastAPI so the browser can keep calling `/api` on the same origin.
+The log `failed to read dockerfile: open Dockerfile: no such file or directory` means Render's Docker builder is looking at the **repo root**. Use the root `Dockerfile` (not `backend/Dockerfile` or `frontend/Dockerfile`).
 
-**Railway**
+**Existing Web Service (Dashboard)**
 
-1. New project → Deploy from GitHub → this repo (`main`).
-2. Railway reads `railway.toml` and the root `Dockerfile`.
-3. Set `APP_ENV=production`. Optional: attach a volume at `/data` so SQLite survives restarts.
-4. The public URL is the FastAPI process (`$PORT`). Open `/` for the dashboard and `/api/health` for a liveness check.
+1. Service → Settings:
+   - Language / runtime: **Docker**
+   - **Root Directory:** leave blank (repo root)
+   - **Dockerfile Path:** `Dockerfile` or `./Dockerfile`
+   - **Docker Build Context Directory:** `.` or blank
+2. Health Check Path: `/api/health`
+3. Environment:
+   - `APP_ENV=production`
+4. Manual Deploy → **Clear build cache & deploy** the latest `main`.
 
-Do **not** point the builder at `backend/Dockerfile` or `frontend/Dockerfile` alone. Those are for the local two-container Compose setup. Vercel still needs extra work (hosted Postgres + cron ingest) because this backend is a long-lived process.
+The public `onrender.com` URL serves the dashboard at `/` and the API at `/api`. Render injects `$PORT`; the image already binds to it.
+
+Optional (paid plans): add a disk at `/data` so SQLite survives deploys. On the free plan the catalog is re-fetched from SpaceX on each boot.
+
+**New service from Blueprint**
+
+New → Blueprint → this repo. `render.yaml` creates one Docker web service with the settings above.
+
+Do **not** set Root Directory to `frontend` or `backend`. Those Dockerfiles are only for local two-container Compose. Vercel still needs extra work (hosted Postgres + cron ingest) because this backend is a long-lived process.
 
 ## Data source
 

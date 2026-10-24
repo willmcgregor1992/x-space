@@ -1,5 +1,5 @@
 services:
-  # One-process image used by Railway / Render / Fly (UI + API on :8000)
+  # One-process image used by Render / Railway / Fly (UI + API on :8000)
   app:
     profiles: ["single"]
     build:

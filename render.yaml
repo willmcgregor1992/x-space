@@ -1,0 +1,21 @@
+# Render Blueprint — one Docker web service serves the UI and /api.
+# https://render.com/docs/blueprint-spec
+services:
+  - type: web
+    name: spacex-mission-control
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /api/health
+    autoDeployTrigger: commit
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: DATABASE_URL
+        value: sqlite+aiosqlite:////data/mission_control.db
+      - key: CORS_ORIGINS
+        value: "*"
+      - key: FRONTEND_DIST
+        value: /app/static
+      - key: SEED_FROM_FIXTURES_ON_FAILURE
+        value: "false"

@@ -42,10 +42,19 @@ async def lifespan(app: FastAPI):
     app.state.ingestion = ingestion
     app.state.settings = settings
 
-    await ingestion.run()
+    first_ingest = asyncio.create_task(ingestion.run())
+    if settings.app_env == "test":
+        await first_ingest
+
     stop = asyncio.Event()
 
     async def loop() -> None:
+        if not first_ingest.done():
+            try:
+                await first_ingest
+            except Exception:
+                logger.exception("initial ingest crashed")
+                await asyncio.sleep(30)
         while not stop.is_set():
             try:
                 async with session_maker() as session:
@@ -65,6 +74,7 @@ async def lifespan(app: FastAPI):
     task = asyncio.create_task(loop())
     yield
     stop.set()
+    first_ingest.cancel()
     task.cancel()
     await http.aclose()
     await engine.dispose()
