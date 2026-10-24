@@ -47,3 +47,29 @@ def test_simulate_rejected_outside_development():
     with _client() as client:
         response = client.get("/api/current", params={"simulate": "tplus-180"})
         assert response.status_code == 400
+
+
+def test_spa_served_from_frontend_dist(tmp_path):
+    (tmp_path / "index.html").write_text("<!doctype html><title>Mission Control</title>", encoding="utf-8")
+    assets = tmp_path / "assets"
+    assets.mkdir()
+    (assets / "app.js").write_text("console.log('ok')", encoding="utf-8")
+    settings = Settings(
+        app_env="test",
+        database_url="sqlite+aiosqlite:///:memory:",
+        cors_origins="http://test",
+        frontend_dist=str(tmp_path),
+    )
+    with TestClient(create_app(settings)) as client:
+        home = client.get("/")
+        assert home.status_code == 200
+        assert "Mission Control" in home.text
+        asset = client.get("/assets/app.js")
+        assert asset.status_code == 200
+        assert "console.log" in asset.text
+        deep = client.get("/anything/deep")
+        assert deep.status_code == 200
+        assert "Mission Control" in deep.text
+        health = client.get("/api/health")
+        assert health.status_code == 200
+        assert health.json()["status"] == "ok"

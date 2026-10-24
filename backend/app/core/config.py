@@ -1,4 +1,5 @@
 from functools import lru_cache
+from pathlib import Path
 from typing import Literal
 
 from pydantic import Field, field_validator
@@ -17,6 +18,7 @@ class Settings(BaseSettings):
     api_host: str = "0.0.0.0"
     api_port: int = 8000
     cors_origins: str = "http://localhost:5173,http://127.0.0.1:5173,http://localhost:8080"
+    frontend_dist: str = ""
 
     spacex_cms_base_url: str = "https://content.spacex.com"
     spacex_site_base_url: str = "https://www.spacex.com"
@@ -68,6 +70,17 @@ class Settings(BaseSettings):
     @property
     def is_development(self) -> bool:
         return self.app_env == "development"
+
+    @property
+    def frontend_dist_path(self) -> Path | None:
+        candidates: list[Path] = []
+        if self.frontend_dist.strip():
+            candidates.append(Path(self.frontend_dist))
+        candidates.append(Path("/app/static"))
+        for path in candidates:
+            if (path / "index.html").is_file():
+                return path
+        return None
 
 
 @lru_cache

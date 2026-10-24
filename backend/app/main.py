@@ -10,6 +10,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
 from app.api.routes import router
+from app.api.spa import mount_frontend
 from app.core.config import Settings, get_settings
 from app.db.session import create_engine, init_db, session_factory
 from app.providers.http import SpaceXHttpClient
@@ -86,6 +87,8 @@ def create_app(settings: Settings | None = None) -> FastAPI:
         allow_headers=["*"],
     )
     app.include_router(router, prefix="/api")
+    if settings.frontend_dist_path is not None:
+        mount_frontend(app, settings.frontend_dist_path)
 
     @app.exception_handler(Exception)
     async def unhandled(request: Request, exc: Exception) -> JSONResponse:

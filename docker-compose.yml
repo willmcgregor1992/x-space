@@ -1,4 +1,19 @@
 services:
+  # One-process image used by Railway / Render / Fly (UI + API on :8000)
+  app:
+    profiles: ["single"]
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      APP_ENV: ${APP_ENV:-production}
+      DATABASE_URL: ${DATABASE_URL:-sqlite+aiosqlite:////data/mission_control.db}
+      CORS_ORIGINS: ${CORS_ORIGINS:-*}
+    volumes:
+      - mission-data:/data
+    ports:
+      - "8000:8000"
+
   backend:
     build:
       context: ./backend

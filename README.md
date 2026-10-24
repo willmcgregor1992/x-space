@@ -131,6 +131,27 @@ uvicorn app.main:app --host 0.0.0.0 --port 8000
 
 Or `docker compose up --build` with `APP_ENV=production`.
 
+Single-service image (what Railway / Render / Fly should build):
+
+```bash
+docker compose --profile single up --build
+```
+
+UI and API share http://localhost:8000.
+
+## Deploy online
+
+Hosts that look for a root `Dockerfile` (Railway, Render, Fly) should use the repo-root image. It builds the Vite UI and serves it from FastAPI so the browser can keep calling `/api` on the same origin.
+
+**Railway**
+
+1. New project → Deploy from GitHub → this repo (`main`).
+2. Railway reads `railway.toml` and the root `Dockerfile`.
+3. Set `APP_ENV=production`. Optional: attach a volume at `/data` so SQLite survives restarts.
+4. The public URL is the FastAPI process (`$PORT`). Open `/` for the dashboard and `/api/health` for a liveness check.
+
+Do **not** point the builder at `backend/Dockerfile` or `frontend/Dockerfile` alone. Those are for the local two-container Compose setup. Vercel still needs extra work (hosted Postgres + cron ingest) because this backend is a long-lived process.
+
 ## Data source
 
 SpaceX.com/launches is an Angular SPA. Launch rows come from:
