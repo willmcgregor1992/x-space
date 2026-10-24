@@ -8,7 +8,7 @@ The app answers three questions as soon as it opens:
 2. Is a SpaceX launch currently live?
 3. Where is the mission in its journey (schematic / estimated unless SpaceX reports otherwise)?
 
-It is **not** a clone of any concept frame. The visual language is a dark aerospace console: technical type, thin rules, restrained orange accents, and an SVG journey display.
+It is **not** a clone of any concept frame. The visual language is a dark aerospace console: technical type, thin rules, restrained orange accents, an SVG journey display, and original GLB vehicle models that split when the profile says boosters fall away. See [docs/ROCKET_MODELS.md](docs/ROCKET_MODELS.md).
 
 ## Prerequisites
 

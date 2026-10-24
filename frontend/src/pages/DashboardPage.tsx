@@ -72,7 +72,12 @@ export function DashboardPage() {
             />
           </div>
           <div className="order-3">
-            <RocketPanel launch={selectedLaunch} state={data.state} />
+            <RocketPanel
+              launch={selectedLaunch}
+              state={data.state}
+              now={now}
+              reducedMotion={reducedMotion}
+            />
           </div>
         </div>
         <div className="order-4">

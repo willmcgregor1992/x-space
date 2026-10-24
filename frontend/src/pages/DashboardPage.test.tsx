@@ -32,6 +32,11 @@ vi.mock("@/hooks/useEventStream", () => ({
   useEventStream: () => undefined,
 }));
 
+vi.mock("@/components/rocket/RocketModel", () => ({
+  RocketModel: ({ config }: { config: { caption: string } }) => <div>{config.caption}</div>,
+  preloadRocket: () => undefined,
+}));
+
 function renderDash() {
   const client = new QueryClient();
   return render(
